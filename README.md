@@ -1,5 +1,7 @@
-# vue_pratice
-
+# vue_Router_pratice
+```
+.vue練習及router component切分 spa頁面
+```
 ## Project setup
 ```
 npm install
