@@ -1,5 +1,7 @@
-# vue_pratice
-
+# vue_Router_pratice
+```
+本檔案僅供練習 .vue router component 切分 做成SPA頁面
+```
 ## Project setup
 ```
 npm install
