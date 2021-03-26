@@ -1,6 +1,6 @@
 # vue_Router_pratice
 ```
-.vue練習及router component切分 spa頁面
+本檔案僅供練習 .vue router component 切分 做成SPA頁面
 ```
 ## Project setup
 ```
