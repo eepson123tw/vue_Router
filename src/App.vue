@@ -3,11 +3,28 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/travel">travel</router-link>
+      <router-link :to="{name:`travel`}">travel</router-link>
+
+      <button @click="handleTurn">前往Demo頁</button>
+
     </div>
     <router-view/>
   </div>
 </template>
+<script>
+export default {
+  
+  methods:{
+    handleTurn(){
+      this.$router.push('/about',this.completeHandler)
+    },
+    completeHandler(){
+      
+    },
+  },
+}
+</script>
+
 
 <style>
 #app {
