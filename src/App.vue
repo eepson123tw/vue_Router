@@ -4,9 +4,6 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link :to="{name:`travel`}">travel</router-link>
-
-      <button @click="handleTurn">前往Demo頁</button>
-
     </div>
     <router-view/>
   </div>
