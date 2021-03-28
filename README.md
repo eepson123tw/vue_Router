@@ -2,25 +2,8 @@
 ```
 本檔案僅供練習 .vue router component 切分 做成SPA頁面
 ```
-## Project setup
+## 目前擁有功能 搜尋
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+可搜尋 slack名稱 及  團隊 數字
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
