@@ -1,6 +1,9 @@
-<template>
+`<template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <p>
+      搭配六角學院js直播班，提供之api作頁面呈現，及功能展示。
+    </p>
   </div>
 </template>
 

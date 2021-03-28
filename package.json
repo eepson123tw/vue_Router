@@ -2,11 +2,14 @@
   "name": "vue_pratice",
   "version": "0.1.0",
   "private": true,
+  "description": "``` 本檔案僅供練習 .vue router component 切分 做成SPA頁面 ``` ## Project setup ``` npm install ```",
+  "author": "",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "babel.config.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
@@ -17,9 +20,11 @@
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "^4.5.12",
     "@vue/cli-service": "~4.5.0",
+    "axios": "^0.18.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-cli-plugin-axios": "0.0.4",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -40,5 +45,14 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/eepson123tw/vue_Router/issues"
+  },
+  "homepage": "https://github.com/eepson123tw/vue_Router#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://eepson123tw@github.com/eepson123tw/vue_Router.git"
+  }
 }

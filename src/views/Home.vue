@@ -5,16 +5,13 @@
      <footer>
       <p>© 資料、圖片、文章來源皆來自網路，僅用來做為學習用途，不做任何商業用途，若有任何疑問，請聯繫eepson123@gmail.com。</p>
   </footer>
-      <button @click="handleTurn">前往Demo頁</button>
+      <button class='demo_btn' @click="handleTurn">前往Demo頁</button>
   </div>
 
  
 
 
 </template>
-
-
-
 <script>
 
 import HelloWorld from '@/components/HelloWorld.vue'
@@ -25,7 +22,7 @@ export default {
   },
     methods:{
     handleTurn(){
-      this.$router.push('/about',this.completeHandler)
+      this.$router.push('/demo',this.completeHandler)
     },
     completeHandler(){
       
@@ -33,3 +30,16 @@ export default {
   },
 }
 </script>
+<style scoped>
+
+  .demo_btn{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+
+</style>
